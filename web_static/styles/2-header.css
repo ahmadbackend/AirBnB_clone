@@ -1,0 +1,14 @@
+header{
+    color: white;
+height: 70px;
+width: 100%;
+border-bottom: 1px solid #000000 ;
+}
+.logo
+{
+    margin:auto 0px auto 20px;
+}
+/*
+lign on left and center vertically (20px space at the left)
+margin: [top] [right] [bottom] [left];
+border bottom 1px #CCCCCC*/
