@@ -78,6 +78,8 @@ opacity: 90%;
 article
 {
     display: inline-block;
+    position: relative;
+    
 }
 .places article{
     width:390px;
@@ -89,4 +91,31 @@ article
 article h2{
     font-size: 30px;
     text-align: center;
+}
+.price_by_night{
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;   
+    font-size: 30px;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+.information{
+    display: flex;
+    justify-content: center;
+}
+.price_by_night h6{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.max_guest , .number_rooms, .number_bathrooms
+{
+    width:100px;
+    display: inline;
+    margin: 0px;;
+
 }
